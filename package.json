@@ -1,7 +1,7 @@
 {
     "name": "package-json-discover",
     "version": "1.0.0",
-    "description": "todo",
+    "description": "Discover and load package.json files",
     "author": "Stephen Berquet",
     "licenses": [
         {
