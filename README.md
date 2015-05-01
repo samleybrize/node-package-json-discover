@@ -43,24 +43,24 @@ console.log(packageJson.version);
 ***load([{string} from])***
 
 > Loads the closest `package.json` file. The `from` arg define the directory where to start discovering. If no `package.json` is found within that directory,
-search will continue on parent directories until the root directory. An error is thrown if no `package.json` were found.
+> search will continue on parent directories until the root directory. An error is thrown if no `package.json` were found.
 >
 > The `from` arg can be absolute or relative to the current file. If it is omitted, it is the file where you call or bind the `load()` function.
 >
 > `package.json` existence is verified only once per directory. If you call `discover()` or `load()` on the `/path/to/project` directory several times,
-verification will occur on the first time you call it, and starting from the second time the path is returned directly.
+> verification will occur on the first time you call it, and starting from the second time the path is returned directly.
 >
 > Returns the loaded JSON object.
 
 ***discover([{string} from])***
 
 > Search the closest `package.json` file. The `from` arg define the directory where to start discovering. If no `package.json` is found within that directory,
-search will continue on parent directories until the root directory. An error is thrown if no `package.json` were found.
+> search will continue on parent directories until the root directory. An error is thrown if no `package.json` were found.
 >
 > The `from` arg can be absolute or relative to the current file. If it is omitted, it is the file where you call or bind the `load()` function.
 >
 > `package.json` existence is verified only once per directory. If you call `discover()` or `load()` on the `/path/to/project` directory several times,
-verification will occur on the first time you call it, and starting from the second time the path is returned directly.
+> verification will occur on the first time you call it, and starting from the second time the path is returned directly.
 >
 > Returns the found path.
 
