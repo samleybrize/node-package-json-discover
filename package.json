@@ -10,7 +10,9 @@
         }
     ],
     "keywords": [
-        "require"
+        "package.json",
+        "package",
+        "json"
     ],
     "repository": {
         "type": "git",
